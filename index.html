@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Contenedor personalizado para limitar el ancho */
+        .custom-container {
+            max-width: 1000px; /* Ancho máximo ajustado */
+            margin: 0 auto; /* Centrar el contenido horizontalmente */
+            padding: 0 15px; /* Espaciado lateral */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                    <a href="./pages/contacto.html" class="btn btn-primary ms-3">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="py-5 text-center bg-light">
+            <div class="custom-container">
+                <h1 class="display-4 fw-bold">Desarrollando Agentes de IA Que Automatizan Tu Éxito</h1>
+                <p class="lead">Automatizamos y optimizamos tus operaciones para un éxito garantizado.</p>
+                <a href="./pages/contacto.html" class="btn btn-primary btn-lg">Comienza Ahora</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="nosotros" class="py-5">
+            <div class="custom-container text-center">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <p>
+                            En AIEAD, nos especializamos en transformar empresas con soluciones de inteligencia artificial
+                            que combinan la creatividad con tecnología avanzada.
+                        </p>
+                        <p>
+                            Desarrollamos soluciones personalizadas para automatizar procesos y mejorar la eficiencia
+                            operativa de tu empresa.
+                        </p>
+                        <a href="./pages/contacto.html" class="btn btn-primary">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catchy Phrase Section -->
+        <section class="bg-light py-5">
+            <div class="custom-container text-center">
+                <h2 class="fw-bold">Inteligencia Artificial, <span class="text-primary">a tu Alcance</span></h2>
+                <p>¿Necesitas una solución personalizada para tus necesidades?</p>
+                <a href="./pages/contacto.html" class="btn btn-primary">Contáctanos</a>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="beneficios" class="py-5">
+            <div class="custom-container">
+                <h3 class="text-center mb-4">Beneficios que Traen Éxito</h3>
+                <div class="row">
+                    <!-- Columna izquierda -->
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Nuestra Agencia</h5>
+                                <ul>
+                                    <li>Expertos en IA</li>
+                                    <li>Soluciones Innovadoras</li>
+                                    <li>Proyectos Personalizados</li>
+                                    <li>Orientación al Cliente</li>
+                                    <li>Pruebas y Validación Rigurosas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Columna derecha -->
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Otras Agencias</h5>
+                                <ul>
+                                    <li>IA no Especializada</li>
+                                    <li>Enfoque Tradicional</li>
+                                    <li>Soluciones Genéricas</li>
+                                    <li>Enfoque Centrado en la Agencia</li>
+                                    <li>Pruebas Limitadas o Calidad Inadecuada</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="./pages/contacto.html" class="btn btn-primary">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light py-4">
+        <div class="custom-container text-center">
+            <p>&copy; 2024 AIEAD. Todos los derechos reservados.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./pages/servicios.html" class="text-light">Servicios</a></li>
+                <li class="list-inline-item"><a href="./pages/contacto.html" class="text-light">Contáctanos</a></li>
+                <li class="list-inline-item"><a href="./pages/faq.html" class="text-light">FAQ</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
